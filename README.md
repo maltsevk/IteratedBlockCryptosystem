@@ -11,7 +11,7 @@ Permutation: (5 * i + 9) % 16<br>
 Note: this cryptosystem has weak keys (any keys that have the same left and right part). <br>
 
 
-Encryptor input:
+<br>Encryptor input:
 <li>binary file with a opened text to be encrypted;</li>
 <li>binary file with a key (4 bytes).</li>
 Encryptor output:
