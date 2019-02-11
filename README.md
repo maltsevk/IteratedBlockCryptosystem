@@ -3,7 +3,7 @@ It is an iterated block encryptor and decryptor.
 
 Cryptosystem description.<br>
 It uses two Lai-Massey and two Feistel tacts. The round function is SP network.<br>
-Key schedule: 0 = 01 || 02, KS(0) = (01, 02, 01, 02).<br>
+Key schedule: 0 = 0<sub>1</sub> || 0<sub>2</sub>, KS(0) = (0<sub>1</sub>, 0<sub>2</sub>, 0<sub>1</sub>, 0<sub>2</sub>).<br>
 All S-blocks are the same:<br>
 Substitution: (3, 13, 4, 7, 15, 2, 8, 14, 12, 0, 1, 10, 6, 9, 11, 5)<br>
 Permutation: (5 * i + 9) % 16<br>
