@@ -11,16 +11,16 @@ Permutation: (5 * i + 9) % 16
 Note:
 This cryptosystem has weak keys (any keys that have the same left and right part).
 
-Encryptor.
-Input: 
+Encryptor input: 
  - binary file with a opened text to be encrypted;
  - binary file with a key (4 bytes).
-Output:
+
+Encryptor output:
  - binary file with an encrypted text.
 
-Decryptor.
-Input: 
+Decryptor input: 
  - binary file with a encrypted text to be decrypted;
  - binary file with a key (4 bytes).
-Output:
+
+Decryptor output:
  - binary file with a decrypted text.
