@@ -12,15 +12,15 @@ Note:
 This cryptosystem has weak keys (any keys that have the same left and right part).
 
 Encryptor input: 
- - binary file with a opened text to be encrypted;
- - binary file with a key (4 bytes).
+- binary file with a opened text to be encrypted;
+- binary file with a key (4 bytes).
 
 Encryptor output:
- - binary file with an encrypted text.
+- binary file with an encrypted text.
 
 Decryptor input: 
- - binary file with a encrypted text to be decrypted;
- - binary file with a key (4 bytes).
+- binary file with a encrypted text to be decrypted;
+- binary file with a key (4 bytes).
 
 Decryptor output:
- - binary file with a decrypted text.
+- binary file with a decrypted text.
