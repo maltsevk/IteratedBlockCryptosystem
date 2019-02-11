@@ -15,6 +15,7 @@ Encryptor
 Input: 
  - binary file with a opened text to be encrypted;
  - binary file with a key (4 bytes).
+
 Output:
  - binary file with an encrypted text.
 
@@ -22,5 +23,6 @@ Decryptor
 Input: 
  - binary file with a encrypted text to be decrypted;
  - binary file with a key (4 bytes).
+
 Output:
  - binary file with a decrypted text.
